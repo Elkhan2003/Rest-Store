@@ -1,0 +1,12 @@
+.header__logo {
+  background: url(../images/stars.gif);
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+.header__logo span {
+  text-shadow: 0px 0px 10px red;
+  color: red;
+}

@@ -5,6 +5,7 @@ import { BiSun, BiMoon, BiCart} from 'react-icons/bi';
 import { VscAccount } from 'react-icons/vsc';
 import { Link } from "@reach/router";
 import { useCart } from "react-use-cart";
+import css from './Header.module.css'
 
 
 const Header = () => {
@@ -30,7 +31,7 @@ const Header = () => {
         <Container>
           <Link to="/">
             <Navbar.Brand className={darkMode? 'text-dark-primary': 'text-light-primary'}>
-                <b>Elcho-Shop</b>
+                <b className={css.header__logo}><span>Elcho</span> Shop</b>
             </Navbar.Brand>
           </Link>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
